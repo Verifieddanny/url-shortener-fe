@@ -6,7 +6,7 @@ The frontend dashboard for the [URL Shortener API](https://github.com/Verifiedda
 
 ## Tech Stack
 
-- **Framework:** TanStack Start (React)
+- **Framework:** React
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
 - **Icons:** Lucide React
