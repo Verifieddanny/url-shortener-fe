@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState, useEffect } from 'react'
-import { Link2, Sparkles, Copy, CheckCircle2, ArrowRight, AlertCircle, X } from 'lucide-react'
+import { Link2, Copy, CheckCircle2, ArrowRight, AlertCircle, X } from 'lucide-react'
 
 // Define the search params type for safety
 type IndexSearch = {
