@@ -11,7 +11,6 @@
   }
 }
 
-/* Custom Animation classes that aren't built-in yet for v4 */
 .animate-in { animation-duration: 0.4s; animation-timing-function: ease-out; animation-fill-mode: forwards; }
 .fade-in { animation-name: fadeIn; }
 .slide-in-from-bottom-2 { animation-name: slideUp; }

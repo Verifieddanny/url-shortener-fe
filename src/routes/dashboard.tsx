@@ -2,7 +2,6 @@ import { createFileRoute } from '@tanstack/react-router'
 import { useState, useEffect, useRef } from 'react'
 import { BarChart3, Link2, MousePointer2, MoreVertical, Search, Plus, ArrowRight, CheckCircle2, Copy, X, AlertCircle, Trash2, Info, Clock, Globe } from 'lucide-react'
 
-// Define the search params type for safety
 type DashboardSearch = {
   expired?: boolean
 }

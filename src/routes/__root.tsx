@@ -11,9 +11,6 @@ function RootLayout() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const navigate = useNavigate()
 
-  // LEARNING CURVE: GLOBAL AUTH STATE
-  // In a professional app, you'd use a Context Provider or Zustand store.
-  // This useEffect syncs the navbar with localStorage for this demo.
   useEffect(() => {
     const checkAuth = () => {
       const token = localStorage.getItem('token')
@@ -21,7 +18,6 @@ function RootLayout() {
     }
 
     checkAuth()
-    // Listen for storage changes (e.g., if login happens in another tab)
     window.addEventListener('storage', checkAuth)
     return () => window.removeEventListener('storage', checkAuth)
   }, [])
